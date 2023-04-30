@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script>
+ function checkpass(){
+ var pass = document.getElementById("passid").value
+ var password = document.getElementById("conpassid").value
+
+if(pass!=password)
+{
+
+ alert("Password and Confirmed Password should be same")
+
+ }
+ else{
+ alert("SignUp successful")
+ location.href="./pizza.html";
+ }
+
+ }
+ </script>
+ <style>
+ body{
+ background-color: rgb(129, 162, 233);
+ text-align: center;
+ }
+ div{
+ background-color: rgb(69, 81, 134);
+ margin-top: 60px;
+ line-height: 40px;
+ width: 600px;
+ margin-left: 360px;
+ border: 2px solid black;
+ }
+</style>
+ <title>Singup</title>
+
+</head>
+
+<body>
+<div>
+ Name:<input type="text" name="n1"><br><br>
+ Email Id:<input type="email" name="n2"><br><br>
+Password:<input type="password" name="n3" id="passid"><br><br>
+ Confirmed password:<input type="password" name="n3" id="conpassid" ><br><br>
+<button type="submit" onclick="checkpass()">Submit</button>
+ </div>
+
+</body>
+
+</html>
