@@ -3,6 +3,7 @@
     width: 100%;
     background-color: rgb(160, 4, 4);
     float: left;
+    display: flex;
 }
 
 #b{
@@ -20,17 +21,18 @@
 
 #head{
     height: 180px;
-    width: 75%;
-    margin-left: 275px;
-   margin-top: -180px;
+    width: 960px;
+/*     margin-left: 275px;
+   margin-top: -180px; */
      }
 
 #nav{
     background-color: black;
     overflow: hidden;
     height: 30px;
-    width: 91.3%;
+    width: 1103px;
     margin-left: 69px;
+    display: flex;
     }
 #nav a{
     
